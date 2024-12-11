@@ -1,0 +1,162 @@
+/* Footer */
+
+
+footer {
+    background-color: #f8f9fa;
+    padding-top: 4em;
+}
+
+/* Footer Info Section */
+.footer-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 2em;
+    margin-bottom: 3em;
+}
+
+.footer-info-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer-info-card h4 {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-info-card h3 {
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.footer-info-card h5 {
+    font-weight: 400;
+    color: #555;
+    font-size: 1em;
+}
+
+/* Footer Navigation Section */
+.footer-bg {
+    background-color: #007bff;
+    color: #fff;
+    padding: 3em 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 2em;
+}
+
+.footer-nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.footer-navitem-container {
+    width: 40%;
+}
+
+.footer-navitem-container h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-navitem-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-navitem-container ul li {
+    margin-bottom: 10px;
+}
+
+.footer-navitem-container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-navitem-container ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Social Section */
+.footer-social-container {
+    text-align: center;
+}
+
+.footer-social-container h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-social-container h5 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons i {
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+}
+
+/* Rights Section */
+.rights {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.rights h5 {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-info-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-info-card {
+        width: 100%;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-nav-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-social-container {
+        margin-top: 40px;
+    }
+}

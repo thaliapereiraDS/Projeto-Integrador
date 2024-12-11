@@ -1,0 +1,32 @@
+/* Selecionando a barra de navegação */
+.header-navbar {
+    background-color: #1f1e1e;
+    padding: 10px;
+  }
+  
+  /* Selecionando todos os itens do menu */
+  .menucontainer li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Selecionando os links (opções) */
+  .menucontainer li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Adicionando um estilo de destaque ao link 'Nossos produtos' */
+  .menucontainer li:first-child a {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* Estilo para o hover nos links */
+  .menucontainer li a:hover {
+    background-color: #555;
+  }
+  
+
